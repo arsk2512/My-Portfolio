@@ -126,7 +126,8 @@
   }
 
   .info-container button:nth-child(2) {
-    width: 60px;
+    width: 65px !important;
+    white-space: nowrap !important; 
     height: 21px;
     font-size: 9px;
     display: flex;
