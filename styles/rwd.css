@@ -30,17 +30,19 @@
     font-size: 28px !important;
     margin-bottom: 1rem !important;
   }
+
   .info-container h6 {
     font-size: 18px !important;
     margin-bottom: 1rem !important;
   }
+
   .info-container .button-row button {
     font-size: 14px !important;
   }
 
   .aboutme-container.p-5,
   .skills-container.px-5,
-  .work-exp-container.px-5,
+  .my-projects-container.px-5,
   .education-container.px-5,
   .contact-container.px-5 {
     padding-left: 1.7rem !important;
@@ -75,10 +77,11 @@
   main .first-row a i {
     font-size: 12px;
   }
+
   .card-title {
     background: #66bfbf
-
   }
+
   .card-title .row {
     padding: 1rem !important;
     display: flex;
@@ -127,7 +130,7 @@
 
   .info-container button:nth-child(2) {
     width: 65px !important;
-    white-space: nowrap !important; 
+    white-space: nowrap !important;
     height: 21px;
     font-size: 9px;
     display: flex;
@@ -137,7 +140,7 @@
 
   .aboutme-container.p-5,
   .skills-container.px-5,
-  .work-exp-container.px-5,
+  .my-projects-container.px-5,
   .education-container.px-5,
   .contact-container.px-5 {
     padding: 1rem !important;
@@ -146,17 +149,18 @@
   .aboutme-container h2,
   .skills-container h2,
   .education-container h2,
-  .work-exp-container h2,
+  .my-projects-container h2,
   .contact-container h2 {
     font-size: 1rem !important;
     margin-bottom: 10px !important;
   }
 
   .aboutme-container div:first-child {
-    padding-left: 0 !important ;
-    padding-right: 0 !important ;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     margin-bottom: 5px !important;
   }
+
   .aboutme-container p {
     font-size: 12px !important;
     line-height: 1.1 !important;
@@ -190,47 +194,52 @@
   }
 
   .skills-container .progress {
-    height: 10px !important;
+    height: 14px !important;
+    font-size: 10px !important;
   }
 
-  .work-exp-container .container-fluid,
+  .my-projects-container .container-fluid,
   .education-container .container-fluid {
     padding-left: 24px !important;
   }
 
-  .work-exp-container .card::before,
+  .my-projects-container .card::before,
   .education-container .card::before {
     left: -32px !important;
   }
 
-  .work-exp-container .card::after,
+  .my-projects-container .card::after,
   .education-container .card::after {
     width: 19px !important;
     left: -21px !important;
   }
 
-  .work-exp-container .card,
+  .my-projects-container .card,
   .education-container .card {
     padding: 12px !important;
   }
 
-  .work-exp-container .card h5,
+  .my-projects-container .card h5,
   .education-container .card h5 {
     font-size: 16px !important;
     display: block !important;
     margin-bottom: 0 !important;
   }
 
-  .work-exp-container .card h6,
+  .my-projects-container .card h6,
   .education-container .card h6 {
     font-size: 14px !important;
     margin-bottom: 0;
   }
 
-  .work-exp-container .card p,
+  .my-projects-container .card p,
   .education-container .card p {
     font-size: 12px !important;
     line-height: 1.1 !important;
+  }
+
+  .my-projects-container a{
+    font-size: 10px !important;
   }
 
   .contact-container input {
